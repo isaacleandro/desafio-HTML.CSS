@@ -8,6 +8,7 @@ body {
     background-color: rgb(66, 97, 155);
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 
@@ -94,6 +95,7 @@ button {
     border-radius: 10px;
     color: white;
     background-color:rgb(255, 142, 227) ;
+    clip-path: polygon(25% 0, 100% 0, 100% 67%, 77% 100%, 0 100%, 0 29%);
 }
 
 
@@ -122,9 +124,8 @@ a {
 .bigMonkey {
     position: absolute;
     height: 94.5%;
-    width: 50%;
-    margin-top: 5%;
-    margin-left: -20px;
+    width: 52%;
+    margin-top: 4.9%;
     background-image: url(imgs/bigmonkey.png);
     background-size:cover;
 }
